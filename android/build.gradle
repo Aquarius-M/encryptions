@@ -27,6 +27,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.riguz.encryptions'
     compileSdkVersion 29
 
     defaultConfig {
